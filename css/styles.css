@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family:"Times New Roman", Times, serif;
 }
 
 img {
@@ -81,9 +82,22 @@ p {
 }
 div.contrast {
   background-color: rgb(255, 127, 65);
-  background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65), red);
+  background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65));
   padding: 70px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+  .grid-item {
+    border: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+  }
 
 text {
 
