@@ -84,3 +84,9 @@ text-align: center;
 }
 .carousel-item {
 height: 550px;
+}
+
+div.pixlee_container {
+  display: flex
+  padding: 20rem;
+}
