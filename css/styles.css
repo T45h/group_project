@@ -70,12 +70,26 @@ p {
   top: 90px;
 }
 
+#demobox4 {
+  background-color: #B22222;
+  width: 650px;
+  height: 600px;
+  left: 300px;
+  top: 100px;
+  position: absolute;
+  display: block;
+}
 div.contrast {
   background-color: rgb(255, 127, 65);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65), red);
   padding: 70px;
 }
 
+text {
+
+}
+
+  }size:
 padding-top: 5rem;
 }
 .starter-template {
@@ -86,7 +100,4 @@ text-align: center;
 height: 550px;
 }
 
-div.pixlee_container {
-  display: flex
-  padding: 20rem;
-}
+div.
