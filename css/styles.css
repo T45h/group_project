@@ -71,9 +71,9 @@ p {
 }
 
 div.contrast {
-  background-color: #FF7F41;
-  display: flex;
-  justify-content:space-around;
+  background-color: rgb(255, 127, 65);
+  background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65), red);
+  padding: 70px;
 }
 
 padding-top: 5rem;
