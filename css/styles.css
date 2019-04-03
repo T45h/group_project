@@ -1,1 +1,104 @@
+body {
+  text-align: center;
+}
 
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  width: 700px;
+  height: 600px;
+  position: relative;
+  display: block;
+
+}
+
+h2 {
+  width: 70%;
+  margin: 15vh 15vw;
+  font-size: 2em;
+  text-align: justify;
+}
+
+h3 {
+  width: 70%;
+  margin: 15vh 29vw;
+  font-size: 4em;
+  font-style:italic;
+  position: absolute;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  width: 70%;
+  margin: 20vh 10vw;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.container {
+  position: relative;
+}
+
+/* Top text on images */
+.text-block {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-size: 2em;
+}
+
+#demobox2 {
+  background-color: #FF7F41;
+  width: 700px;
+  height: 650px;
+  right: 470px;
+  top: 90px;
+  position: absolute;
+  display: block;
+}
+
+/* transparent box for formating */
+#demobox3 {
+  background-color: white; opacity: 0;
+  width: 700px;
+  height: 650px;
+  right: 470px;
+  top: 90px;
+}
+
+#demobox4 {
+  background-color: #B22222;
+  width: 650px;
+  height: 600px;
+  left: 300px;
+  top: 100px;
+  position: absolute;
+  display: block;
+}
+div.contrast {
+  background-color: rgb(255, 127, 65);
+  background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65), red);
+  padding: 70px;
+}
+
+text {
+
+}
+
+  }size:
+padding-top: 5rem;
+}
+.starter-template {
+padding: 3rem 1.5rem;
+text-align: center;
+}
+
+.carousel-item {
+height: 700px;
+}
+
+div.
