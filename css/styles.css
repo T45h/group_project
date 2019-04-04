@@ -51,7 +51,7 @@ p {
 }
 
 #demobox2 {
-  background-color: #FF7F41;
+  background-color: (255, 0, 0, 0.4);
   width: 700px;
   height: 650px;
   right: 470px;
@@ -79,11 +79,14 @@ p {
   display: block;
 }
 div.contrast {
-  background-color: rgb(255, 127, 65);
-  background-image: linear-gradient(rgba(255, 0, 0, 0),rgb(255, 127, 65));
+  background-color: (255, 0, 0, 0.4);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4),rgba(255, 0, 0, 0.8));
   padding: 70px;
 }
 
+div.contrast2 {
+  background-color: rgba(255, 0, 0, 0.4);
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
