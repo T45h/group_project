@@ -44,27 +44,114 @@
     </div>
     <br>
 
-    <div class="contrast">
-          <p>Orangutans</p>
-          <img src="https://scontent-lht6-1.cdninstagram.com/vp/cde77745058d480ad15e52e4f698cd03/5D2EE5CF/t51.2885-15/sh0.08/e35/c0.135.1080.1080/s640x640/54513277_256765585202611_5678299889952223777_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com">
-          <img src="https://scontent-lht6-1.cdninstagram.com/vp/b837fa94cb368298bb69e0bcd4ab00dc/5D3F10FC/t51.2885-15/sh0.08/e35/c0.135.1080.1080/s640x640/54447067_355154648436944_7000422641458013400_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com">
-          <img src="https://scontent-lht6-1.cdninstagram.com/vp/cb8e3efa0fc3b7acabb92bd705f80feb/5D40C6FF/t51.2885-15/e35/21147199_491766191182799_8403203402678403072_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com">
-        <img src="images/FullSizeRender%202%20copy.jpg" style="max-height:600px">
-      <img src="images/FullSizeRender%202%20copy%203.jpg" style="max-height:600px">
-     </div>
-        </div>
-      </div>
-      <br>
 
+<div class="contrast">
 
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/orang.jpg">
+        <img src="images/orang.jpg" alt="Orangutang" max-width="600px">
+      </a>
+      <div class="desc">'Mumui' (2019)</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/orang2.jpg">
+        <img src="images/orang2.jpg" alt="orangutang2" max-width="600px">
+      </a>
+      <div class="desc">'Jenki' (2019)</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/giraffe1.jpg">
+        <img src="images/giraffe1.jpg" alt="giraffe1" max-width="600px">
+      </a>
+      <div class="desc">Giraffe 1 (2018)</div>
     </div>
 
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/giraffe2.jpg">
+          <img src="images/giraffe2.jpg" alt="giraffe2" max-width="600px">
+        </a>
+        <div class="desc">Giraffe2</div>
+      </div>
+  </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <div class="clearfix"></div>
+
+  <div style="padding:0px;">
+    </div>
+<div class="row">
+    <div class="col-md-12">
+      <div id="mdb-lightbox-ui"></div>
+
+          <div class="mdb-lightbox no-margin">
+
+            <figure class="col-md-4">
+              <a href="images/orang.jpg" data-size="1600x1067">
+                <img alt="picture" src="images/orang.jpg"
+                  class="img-fluid">
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a href="images/orang2.jpg" data-size="1600x1067">
+                <img alt="picture" src="images/orang2.jpg"
+                  class="img-fluid" />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a href="images/giraffe1.jpg" data-size="1600x1067">
+                <img alt="picture" src="images/giraffe1.jpg"
+                  class="img-fluid" />
+              </a>
+            </figure>
+
+            <figure class="col-md-4">
+              <a href="images/giraffe2.jpg" data-size="1600x1067">
+                <img alt="picture" src="images/giraffe2.jpg"
+                  class="img-fluid" />
+              </a>
+            </figure>
+          </div>
+        </div>
+
+
+
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Say Hi!</h1>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit" class="btn">Login</button>
+          <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
 
 </html>
