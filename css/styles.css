@@ -1,6 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 500px;
+}
+
 body {
   text-align: center;
   font-family:"Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: white; opacity: 0;
 }
 
 img {
