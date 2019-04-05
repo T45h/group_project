@@ -7,6 +7,7 @@ $(function () {
 $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
 
+
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
