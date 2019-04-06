@@ -12,16 +12,15 @@ body {
   font-family:"Times New Roman", Times, serif;
 }
 
-nav {
-  background-color: white; opacity: 0;
-}
 
 img {
   display: flex;
   margin: 0 auto;
   position: relative;
   display: block;
-
+}
+.test {
+  box-shadow: 120px 90px red;
 }
 
 h2 {
@@ -65,7 +64,6 @@ p {
 
 .container {
   position: relative;
-  background-colour:
 }
 
 /* Top text on images */
