@@ -1,6 +1,16 @@
 html {
   scroll-behavior: smooth;
 }
+/* Only stick if you can fit */
+@media (min-height: 100px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+
+  nav {
+    color: rgba(0, 0, 0, 0.0);
+  }
 
 .vl {
   border-left: 6px solid white;
