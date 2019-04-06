@@ -106,13 +106,13 @@ p {
 }
 
 #demobox5 {
-  background-color:
   background-color: #B22222;
   width: 650px;
   height: 600px;
   left: 300px;
   top: 100px;
   position: absolute;
+  z-index:-1;
   display: block;
 }
 
