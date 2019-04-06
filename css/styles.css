@@ -19,8 +19,9 @@ img {
   position: relative;
   display: block;
 }
-.test {
-  box-shadow: 120px 90px red;
+
+.imageshadow {
+  box-shadow: 120px 90px #8B0000;
 }
 
 h2 {
@@ -36,6 +37,12 @@ h3 {
   font-size: 4em;
   font-style:italic;
   position: absolute;
+
+  <style>
+    h3 {
+      font-size: 100px;
+    }
+  </style>
 }
 
 h4 {
@@ -64,6 +71,7 @@ p {
 
 .container {
   position: relative;
+  colour: rgba(0,0,0,0);
 }
 
 /* Top text on images */
@@ -91,27 +99,6 @@ p {
   height: 650px;
   right: 470px;
   top: 90px;
-}
-
-#demobox4 {
-  background-color: #B22222;
-  width: 650px;
-  height: 600px;
-  left: 300px;
-  top: 100px;
-  position: absolute;
-  display: block;
-}
-
-#demobox5 {
-  background-color: #B22222;
-  width: 650px;
-  height: 600px;
-  left: 300px;
-  top: 100px;
-  position: absolute;
-  z-index:-1;
-  display: block;
 }
 
 div.contrast {
