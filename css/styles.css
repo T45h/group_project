@@ -141,6 +141,20 @@ body, html {
     }
   }
 
+  .parallax2 {
+    background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/28e9c4e0457cbd117505fe2df6a990f1/5D3DC6DC/t51.2885-15/sh0.08/e35/s640x640/16583337_1078849755575967_3374165580918554624_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  @media only screen and (max-device-width: 1366px) {
+      .parallax2 {
+        background-attachment: scroll;
+      }
+    }
+
 
 div.contrast {
   background-color: (255, 0, 0, 0.4);
