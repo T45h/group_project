@@ -8,9 +8,9 @@ html {
     top: 0;
   }
 
-  nav {
+nav {
     color: rgba(0, 0, 0, 0.0);
-  }
+}
 
 .vl {
   border-left: 6px solid white;
@@ -49,7 +49,7 @@ h3 {
   position: absolute;
 
   <style>
-    h3 {
+h3 {
       font-size: 100px;
     }
   </style>
@@ -94,6 +94,7 @@ a:link {
 .container {
   position: relative;
   colour: rgba(0,0,0,0);
+  padding-top: 40px;
 }
 
 /* Top text on images */
@@ -231,8 +232,6 @@ div.desc {
   }
 }
 
-
-
 .clearfix:after {
   content: "";
   display: table;
@@ -313,6 +312,64 @@ div.contrast2 {
     background-color: white;
   }
 
+  /*crabdraws css for modal & hover*/
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+  /*crabdraws css for hover NOT WORKING??*/
+  .hovercontainer{
+  position: relative;
+  width: 50%;
+  }
+
+  .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+  }
+
+  .hovercontainer:hover .overlay {
+  opacity: 0.8;
+  }
+
+  .orangutantext{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  .project-name{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
   /* Full-width input fields */
   .form-container input[type=text], .form-container input[type=password] {
     width: 100%;
@@ -383,15 +440,6 @@ div.contrast2 {
 
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
-
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
-
-
-text {
-
 }
 
   }size:
