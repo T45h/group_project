@@ -66,6 +66,13 @@ p {
   text-align: justify;
 }
 
+#p2 {
+  font-size: 1em;
+  text-align: center;
+}
+
+#more {display: none;}
+
 a:link {
   color: red;
 }
