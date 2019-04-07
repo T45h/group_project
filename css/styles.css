@@ -66,6 +66,10 @@ p {
   text-align: justify;
 }
 
+a:link {
+  color: red;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -315,6 +319,10 @@ div.contrast2 {
   opacity: 1;
 }
 
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+
 
 text {
 
@@ -333,3 +341,11 @@ height: 700px;
 }
 
 div.
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+}
