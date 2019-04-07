@@ -66,6 +66,10 @@ p {
   text-align: justify;
 }
 
+a:link {
+  color: red;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -314,6 +318,10 @@ div.contrast2 {
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
 
 
 text {
