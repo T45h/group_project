@@ -71,7 +71,8 @@ p {
   text-align: center;
 }
 
-#more {display: none;}
+#more {
+  display: none;}
 
 a:link {
   color: red;
@@ -122,9 +123,48 @@ a:link {
   top: 90px;
 }
 
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/fd5bf580ee39874ed2e4194a53f59695/5D3D06DB/t51.2885-15/sh0.08/e35/c0.63.847.847a/s640x640/51287128_331760110772622_2894774182262063_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .parallax2 {
+    background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/28e9c4e0457cbd117505fe2df6a990f1/5D3DC6DC/t51.2885-15/sh0.08/e35/s640x640/16583337_1078849755575967_3374165580918554624_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  @media only screen and (max-device-width: 1366px) {
+      .parallax2 {
+        background-attachment: scroll;
+      }
+    }
+
+
 div.contrast {
   background-color: (255, 0, 0, 0.4);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.6));
+  padding: 70px;
+}
+
+div.contrast2 {
+  background-color: (255, 0, 0, 0.4);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0));
   padding: 70px;
 }
 
