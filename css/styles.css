@@ -408,10 +408,4 @@ height: 700px;
 
 div.
 
-.fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 25px;
-  text-align: center;
-  text-decoration: none;
-}
+.fa {color: red;}
