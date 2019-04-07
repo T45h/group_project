@@ -10,7 +10,6 @@
 
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel='stylesheet" type="text/js" href="js/scripts.js">
 
     <title>crabrecommends</title>
   </head>
@@ -25,13 +24,13 @@
     <div class="card-deck">
       <div class="card">
         <img class="card-img-top" src="images/betterkiff.jpg" alt="Ken Kiff">
-        <div class="card-body">
-          <h5 class="card-title">Ken Kiff: The Sequence • Sainsbury Centre, Norwich • 17th November – Sunday 21st April</h5>
-          <p2 class="card-text">Shown in it’s closest proximity to completeness yet, the 60 piece series of paintings from Ken Kiff’s  Sequence at the Sainsbury Centre is well worth the trip<span id="dots">...</span><span id="more"> (and was also for me a wonderful excuse to discover the delights of Norwich). Despite his paintings are often unrealistic and illogical, to the point that on first glance they appear almost childish, fusing sensitive application of colour allows them to sing for themselves. The effect of joyful colour palette, combined with his strange, and often slightly unsavoury subject matter emphasises an arresting fusion of various juxtapositions the beautiful and ugly, the fantastical and everyday banality.
-      </span></p2>
-      <button onclick="myFunction()" id="myBtn">Read more</button>
+            <div class="card-body">
+                <h5 class="card-title">Ken Kiff: The Sequence • Sainsbury Centre, Norwich • 17th November – Sunday 21st April</h5>
+                  <p2 class="card-text">Shown in it’s closest proximity to completeness yet, the 60 piece series of paintings from Ken Kiff’s  Sequence at the Sainsbury Centre is well worth the trip<span id="dots">...</span><span id="more"> (and was also for me a wonderful excuse to discover the delights of Norwich). Despite his paintings are often unrealistic and illogical, to the point that on first glance they appear almost childish, fusing sensitive application of colour allows them to sing for themselves. The effect of joyful colour palette, combined with his strange, and often slightly unsavoury subject matter emphasises an arresting fusion of various juxtapositions the beautiful and ugly, the fantastical and everyday banality.
+                  </span></p2>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+            </div>
           </div>
-      </div>
       <div class="card">
         <img class="card-img-top" src="images/wildlifeartistoftheyear.jpg" alt="Rupi Kaur">
         <div class="card-body">
@@ -57,14 +56,43 @@
       <div class="card-body">
         <h5 class="card-title">The Sun and Her Flowers • Rupi Kaur</h5>
         <p2 class="card-text">Rupi Kaur’s done it! She writes poems for everyone- even those that think they don’t like poetry<span id="dots">...</span><span id="more">!
-Beautifully framed within her central message that people must 'fall, root, rise, in order to bloom' Kaur’s collection movingly narrates a journey from grief and abjection to love and empowerment. Kaur combines simple illustrations with economically written passages, whose fragmentary nature resemble the thought patterns of their powerfully singular voice. Un-punctuated, uncapitalised and unassuming on the page, her words resound with a weighty rawness, confronting emotionally difficult traumas and setbacks with sensitivity and acceptance. Comfortingly honest and beautifully uplifting, this IS a must read.</span></p2>
+Beautifully framed within her central message that people must 'fall, root, rise, in order to bloom' Kaur’s collection movingly narrates a journey from grief and abjection to love and empowerment. Kaur combines simple illustrations with economically written passages, whose fragmentary nature resemble the thought patterns of their powerfully singular voice. Un-punctuated, uncapitalised and unassuming on the page, her words resound with a weighty rawness, confronting emotionally difficult traumas and setbacks with sensitivity and acceptance. Comfortingly honest and beautifully uplifting, this IS a must read.
+</span></p2>
       <button onclick="myFunction()" id="myBtn">Read more</button>
     </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="images/greatwomenartistsexhibition.jpg" alt="Rupi Kaur">
+      <img class="card-img-top" src="images/greatwomenartistsexhibition.jpg" alt="In the Company Of">
       <div class="card-body">
         <h5 class="card-title">In the Company of • TJ Boulting • 16th September - 7th November.
 </h5>
         <p2 class="card-text">If you have a spare hour over the rest of the week, catch ‘In the company of’ before it ends <span id="dots">...</span><span id="more">on the 17th November. Curated by Katy Hessel of @thegreatwomenartists, the exhibition places work from three very established artists Alice Neel, Barbara Hepworth and Lee Miller, beside pieces by twelve contemporary female artists to highlight their influence upon, and affinities with their preceding generations. Hessel’s curation does well to cement the idea of the shared artistic language between the old and new: little priority is given to any artist, and pieces from established artists are interpsersed with that of the emerging; encouraging the sense of their being in dialogue with one another. All of these artists use traditional techniques in contemporary ways, and it’s great to see such a diverse range of mediums and styles complementing and contrasting with one another. Rather than leave too much to the imagination- an angle frequently adopted by contemporary galleries that is guilty for leaving an observer at a complete and utter loss- Hessel’s short descriptions and quotes from each contemporary artist give an insight into each work that is both informative and digestible. A worthwhile trip to see work from some really exciting new artists as well as from some old favourites that are usually stashed away in private collections.
+     </span></p2>
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+  </div>
+</div>
+<div class="card">
+<img class="card-img-top" src="images/koons.jpg" alt="Jeff Koons">
+<div class="card-body">
+  <h5 class="card-title">Jeff Koons at The Ashmolean • 7th February – 9th June.</h5>
+  <p2 class="card-text">I went to this exhibition with reservation. <span id="dots">...</span><span id="more">The giant of the art money world, Jeff Koon’s works seemed to me to be nothing more than ginourmously oversized and garishly kitsch. However, as this exhibition reveals, as a conceptual artist Koons excels, with his thinking is interesting and extensive. Koons’ ability to create art which is in dialogue with art history, which manages to connect highly intelligent and philosophical ideas, with creations which invite a very basic sensory enjoyment makes him perhaps one of the most democratic artists of our day.
 </span></p2>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+</div>
+</div>
+</div>
+<script> function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  } </script>
+</body>
