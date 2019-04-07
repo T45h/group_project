@@ -39,31 +39,44 @@ h2 {
   font-size: 2em;
   text-align: justify;
 }
+
   h6 {
-    color: rgb(255,255,255);
-    transform:rotate(90deg);
-    font-size:4em;
+    color: #8B0000;
+    font-size: 5em;
+    font-family: "Courier, monospace";
     position:relative;
-    top: 50%;
-    right: 6%;
+    top: 55px;
+    z-index: 9;
+    right: 80px;
+}
+
+
+h5 {
+    color: #8B0000;
+    font-size:1.5em;
+    position:relative;
+    bottom: 40px;
+    z-index: 9;
+}
+
+h8 {
+    color: white;
+    font-size:2em;
+    position:relative;
+    bottom: 18px;
+    z-index: 9;
 }
 
 
 
 h3 {
-  width: 80%;
+  width: 70%;
   margin: 15vh 29vw;
   font-size: 3em;
-  font-style;
+  font-family: "HelveticaNeue, Light";
   text-align: center
 }
 
-  <style>
-    h3 {
-      font-size: 100px;
-    }
-  </style>
-}
 
 h4 {
   text-align: center;
@@ -197,8 +210,7 @@ div.contrast2 {
   padding: 70px;
 }
 
-div.header-image {
-}
+
 
 div.gallery {
   border: 1px solid #ccc;
@@ -241,12 +253,6 @@ div.desc {
   }
 }
 
-
-
-
-div.contrast2 {
-  background-color: rgba(255, 0, 0, 0.4);
-}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
