@@ -12,11 +12,6 @@ nav {
     color: rgba(0, 0, 0, 0.0);
 }
 
-.vl {
-  border-left: 6px solid white;
-  width: 500px;
-}
-
 body {
   text-align: center;
   font-family:"Times New Roman", Times, serif;
@@ -34,6 +29,10 @@ img {
   box-shadow: 120px 90px #8B0000;
 }
 
+.imageshadow2 {
+  box-shadow: -120px -70px #8B0000;
+}
+
 h2 {
   width: 70%;
   margin: 15vh 15vw;
@@ -41,19 +40,43 @@ h2 {
   text-align: justify;
 }
 
+  h6 {
+    color: #8B0000;
+    font-size: 5em;
+    font-family: "Courier, monospace";
+    position:relative;
+    top: 55px;
+    z-index: 9;
+    right: 80px;
+}
+
+
+h5 {
+    color: #8B0000;
+    font-size:1.5em;
+    position:relative;
+    bottom: 40px;
+    z-index: 9;
+}
+
+h8 {
+    color: white;
+    font-size:2em;
+    position:relative;
+    bottom: 18px;
+    z-index: 9;
+}
+
+
+
 h3 {
   width: 70%;
   margin: 15vh 29vw;
-  font-size: 4em;
-  font-style:italic;
-  position: absolute;
-
-  <style>
-h3 {
-      font-size: 100px;
-    }
-  </style>
+  font-size: 3em;
+  font-family: "HelveticaNeue, Light";
+  text-align: center
 }
+
 
 h4 {
   text-align: center;
@@ -188,8 +211,7 @@ div.contrast2 {
   padding: 70px;
 }
 
-div.header-image {
-}
+
 
 div.gallery {
   border: 1px solid #ccc;
