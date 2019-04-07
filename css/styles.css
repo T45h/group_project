@@ -155,10 +155,29 @@ body, html {
       }
     }
 
+.parallax3 {
+      background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/2bf5e627d79238e3f7432a73d97cf10d/5D49F796/t51.2885-15/sh0.08/e35/c0.30.1080.1080/s640x640/37684153_261928091077940_8343783552340459520_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      @media only screen and (max-device-width: 1366px) {
+        .parallax2 {
+          background-attachment: scroll;
+        }
+      }
 
 div.contrast {
   background-color: (255, 0, 0, 0.4);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.6));
+  padding: 70px;
+}
+
+div.contrast1 {
+  background-color: (255, 0, 0, 0.4);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.6),(255, 0, 0, 0.8);
   padding: 70px;
 }
 
