@@ -36,8 +36,7 @@ nav.social-navigation {
 
 body {
   text-align: center;
-  font-family:"Helvetica";
-  font-size: 12px
+  font-family:"HelveticaNeue";
 }
 
 
@@ -66,11 +65,13 @@ h2 {
   h6 {
     color: #8B0000;
     font-size: 5em;
-    font-family: "Courier, monospace";
+    font-family: "courier";
     position:relative;
+    outline-color: white;
     top: 55px;
     z-index: 9;
     right: 80px;
+     text-outline: 1px white solid;
 }
 
 
