@@ -12,12 +12,12 @@ html {
   padding-right:20px;
 }
 .navbar-light .navbar-nav a.nav-link {
-  font-family:"HelveticaNeue";
+  font-family:"Palatino";
 }
 
 body {
   text-align: center;
-  font-family:"Helvetica";
+  font-family:"Palatino";
   font-size: 12px
 }
 
@@ -363,12 +363,16 @@ div.contrast2 {
     opacity: 1;
   }
 
-.fa {color: red;}
+ul.list-inline social {
+  color: Red;
+}
 
 #image1 {
   align:left;
-  width: 300px;
+  width: 500px;
   height: 400px;
 }
 
+.textline1 {
+  align:center;
 }
