@@ -10,12 +10,24 @@ html {
 
 nav {
     color: rgba(0, 0, 0, 0.0);
-
+    font-size: 15px
   }
 
+nav.active {
+
+  font-style: oblique;
+}
   .navbar-nav > li{
   padding-right:15px;
+  font-color: black
+
 }
+nav.social-navigation {
+  display: inline-block;
+  float: right;
+}
+
+
 
 .vl {
   border-left: 6px solid white;
