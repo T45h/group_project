@@ -352,12 +352,16 @@ div.contrast2 {
     opacity: 1;
   }
 
-.fa {color: red;}
+ul.list-inline social {
+  color: Red;
+}
 
 #image1 {
   align:left;
-  width: 300px;
+  width: 500px;
   height: 400px;
 }
 
+.textline1 {
+  align:center;
 }
