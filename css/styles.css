@@ -36,7 +36,8 @@ nav.social-navigation {
 
 body {
   text-align: center;
-  font-family:"HelveticaNeue";
+  font-family:"Helvetica";
+  font-size: 12px
 }
 
 
@@ -65,13 +66,11 @@ h2 {
   h6 {
     color: #8B0000;
     font-size: 5em;
-    font-family: "courier";
+    font-family: "Courier, monospace";
     position:relative;
-    outline-color: white;
     top: 55px;
     z-index: 9;
     right: 80px;
-     text-outline: 1px white solid;
 }
 
 
@@ -503,3 +502,11 @@ height: 700px;
 div.
 
 .fa {color: red;}
+
+#image1 {
+  align:left;
+  width: 300px;
+  height: 400px;
+}
+
+}
