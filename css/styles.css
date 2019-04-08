@@ -8,8 +8,9 @@ html {
     top: 0;
   }
 
-  nav {
+nav {
     color: rgba(0, 0, 0, 0.0);
+
   }
 
   .navbar-nav > li{
@@ -38,6 +39,10 @@ img {
   box-shadow: 120px 90px #8B0000;
 }
 
+.imageshadow2 {
+  box-shadow: -120px -70px #8B0000;
+}
+
 h2 {
   width: 70%;
   margin: 15vh 15vw;
@@ -45,19 +50,43 @@ h2 {
   text-align: justify;
 }
 
+  h6 {
+    color: #8B0000;
+    font-size: 5em;
+    font-family: "Courier, monospace";
+    position:relative;
+    top: 55px;
+    z-index: 9;
+    right: 80px;
+}
+
+
+h5 {
+    color: #8B0000;
+    font-size:1.5em;
+    position:relative;
+    bottom: 40px;
+    z-index: 9;
+}
+
+h8 {
+    color: white;
+    font-size:2em;
+    position:relative;
+    bottom: 18px;
+    z-index: 9;
+}
+
+
+
 h3 {
   width: 70%;
   margin: 15vh 29vw;
-  font-size: 4em;
-  font-style:italic;
-  position: absolute;
-
-  <style>
-    h3 {
-      font-size: 100px;
-    }
-  </style>
+  font-size: 3em;
+  font-family: "HelveticaNeue, Light";
+  text-align: center
 }
+
 
 h4 {
   text-align: center;
@@ -98,6 +127,7 @@ a:link {
 .container {
   position: relative;
   colour: rgba(0,0,0,0);
+  padding-top: 40px;
 }
 
 /* Top text on images */
@@ -159,10 +189,29 @@ body, html {
       }
     }
 
+.parallax3 {
+      background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/2bf5e627d79238e3f7432a73d97cf10d/5D49F796/t51.2885-15/sh0.08/e35/c0.30.1080.1080/s640x640/37684153_261928091077940_8343783552340459520_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+      @media only screen and (max-device-width: 1366px) {
+        .parallax2 {
+          background-attachment: scroll;
+        }
+      }
 
 div.contrast {
   background-color: (255, 0, 0, 0.4);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.6));
+  padding: 70px;
+}
+
+div.contrast1 {
+  background-color: (255, 0, 0, 0.4);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.6),(255, 0, 0, 0.8);
   padding: 70px;
 }
 
@@ -172,8 +221,7 @@ div.contrast2 {
   padding: 70px;
 }
 
-div.header-image {
-}
+
 
 div.gallery {
   border: 1px solid #ccc;
@@ -215,8 +263,6 @@ div.desc {
     width: 100%;
   }
 }
-
-
 
 .clearfix:after {
   content: "";
@@ -298,6 +344,64 @@ div.contrast2 {
     background-color: white;
   }
 
+  /*crabdraws css for modal & hover*/
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+  /*crabdraws css for hover NOT WORKING??*/
+  .hovercontainer{
+  position: relative;
+  width: 50%;
+  }
+
+  .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: red;
+  }
+
+  .hovercontainer:hover .overlay {
+  opacity: 0.8;
+  }
+
+  .orangutantext{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+  .project-name{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
   /* Full-width input fields */
   .form-container input[type=text], .form-container input[type=password] {
     width: 100%;
@@ -370,15 +474,6 @@ div.contrast2 {
   opacity: 1;
 }
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
-
-
-text {
-
-}
-
   }size:
 padding-top: 5rem;
 }
@@ -393,10 +488,4 @@ height: 700px;
 
 div.
 
-.fa {
-  padding: 10px;
-  font-size: 20px;
-  width: 25px;
-  text-align: center;
-  text-decoration: none;
-}
+.fa {color: red;}

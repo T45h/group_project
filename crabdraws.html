@@ -12,6 +12,61 @@
     <!-- CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+  .hovercontainer{
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8B0000;
+}
+
+.hovercontainer:hover .overlay {
+  opacity: 0.8;
+}
+
+.orangutantext{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-name{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  </style>
+
     <title>crabdraws</title>
   </head>
 
@@ -48,14 +103,14 @@
   <h1 id="header" class="centered">I draw too</h1>
     <div class="parallax2">
     </div>
-
-
-
+<br>
+<br>
+<br>
     <div contrast>
       <div class="container">
-        <img src="images/artycrabcrop.jpg" class="img-fluid imageshadow" alt="Responsive image">
+        <img src="images/artycrabcrop.jpg" class="img-fluid imageshadow2" alt="Responsive image">
           <div class="text-block">
-            <h3>I Draw Too</h3>
+            <h3>Crab Draws</h3>
           </div>
       </div>
         <div>
@@ -88,7 +143,7 @@
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
               <div class="form-group">
-                <label for="exampleFormControlTextarea1">What you sayin</label>
+                <label for="exampleFormControlTextarea1">Tell me your thoughts</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </form>
@@ -105,6 +160,96 @@
 
     <br>
 
+    <!--testing hover. HOW TO GRID-->
+    <div class="contrast">
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                  <img src="images/orang.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Orangutan I</div>
+                    <div class="project-name">Acrylic on paper 2018</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                <img src="images/orang2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Orangutan II</div>
+                    <div class="project-name">Gouache on paper 2019</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                <img src="images/giraffe1.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Giraffe I</div>
+                    <div class="project-name">Acrylic on paper 2018</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                <img src="images/giraffe2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Giraffe II</div>
+                    <div class="project-name">Acrylic on paper 2018</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                <img src="images/chimp2.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Throwing Bananas</div>
+                    <div class="project-name">Acrylic on linen 2018</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="row no-gutters popup-gallery">
+            <div class="col-lg-8 col-sm-10">
+              <div class="hovercontainer">
+                <img src="images/chimpsquare.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="orangutantext">Kenyan Chimp</div>
+                    <div class="project-name">Acrylic on Paper, 2018</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+<!--Current Grid Layout-->
     <div class="contrast">
     <section class="p-0" id="portfolio">
         <div class="container-fluid p-0">
@@ -200,16 +345,7 @@
                 </a>
             </div>
         <div>
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">What you sayin</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </div>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
