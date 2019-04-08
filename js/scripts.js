@@ -17,19 +17,7 @@ function closeForm() {
 }
 //nav bar scrolling attempts
 
-function onScroll(event){
-    var scrollPos = $(document).scrollTop();
-    $('#menu-center a').each(function () {
-        var currnav-nav-link = $(this);
-        var refElement = $(currnav-link.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#menu-center ul li a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-            currLink.removeClass("active");
-        }
-    });
+f
 }
 
 function myFunction() {
