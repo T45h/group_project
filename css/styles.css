@@ -8,7 +8,6 @@ html {
     top: 0;
   }
 
-
   .navbar-nav > li{
   padding-right:20px;
 }
@@ -16,17 +15,11 @@ html {
   font-family:"HelveticaNeue";
 }
 
-.vl {
-  border-left: 6px solid white;
-  height: 500px;
-}
-
 body {
   text-align: center;
   font-family:"Helvetica";
   font-size: 12px
 }
-
 
 img {
   display: flex;
@@ -50,10 +43,20 @@ h2 {
   text-align: justify;
 }
 
+.footerline {
+  font-size: 2em;
+  text-align:left;
+}
+
+.list-inline {
+  justify-content: space-around;
+}
+
+}
   h6 {
     color: #8B0000;
-    font-size: 5em;
-    font-family: "Courier, monospace";
+    font-size: 8em;
+    font-family: "Courier";
     position:relative;
     top: 55px;
     z-index: 9;
@@ -77,14 +80,12 @@ h8 {
     z-index: 9;
 }
 
-
-
 h3 {
   width: 70%;
-  margin: 5vw;
+  margin: 15vh 29vw;
   font-size: 3em;
   font-family: "HelveticaNeue, Light";
-  text-align: justify;
+  text-align: center
 }
 
 
@@ -97,6 +98,7 @@ p {
   margin: 20vh 10vw;
   font-size: 1.5em;
   text-align: justify;
+  position-relative;
 }
 
 #p2 {
@@ -123,10 +125,6 @@ a:link {
   outline-color:rgb(255,255,255);
   outline-offset: 25px;
   font-family: "courier"
-}
-
-p span {
-  background-color: (255, 0, 0, 0.4);
 }
 
 .container {
@@ -238,30 +236,6 @@ div.contrast2 {
   padding: 70px;
 }
 
-
-
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid white;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 5px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 div.contrast2 {
   background-color: rgba(255, 0, 0, 0.4);
 }
@@ -293,7 +267,7 @@ div.contrast2 {
     background-color: white;
   }
 
-  /*crabdraws css for modal & hover*/
+  /*crabdraws css for modal & hover- does this need to go in javascript?*/
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
@@ -388,61 +362,16 @@ div.contrast2 {
     opacity: 1;
   }
 
-.portfolio-box {
-  position: relative;
-  display:block;
-  max-width: 650px;
-  margin: 0 auto;
+ul.list-inline social {
+  color: Red;
 }
-
-}
-.portfolio-vox .portfolio-box-caption {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  opacity: 0;
-  color: #fff;
-  background: rgba(rgba(255, 0, 0, 0.6);
-  webkit-transition: all 0.2s;
-  moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  position: absolute;
-  top: 50%;
-  width: 100%
-  transform: translateY(-50%);
-  text-align: center;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-}
-
-  }size:
-padding-top: 5rem;
-}
-.starter-template {
-padding: 3rem 1.5rem;
-text-align: center;
-}
-
-.carousel-item {
-height: 700px;
-}
-
-div.
-
-.fa {color: red;}
 
 #image1 {
   align:left;
-  width: 300px;
+  width: 500px;
   height: 400px;
 }
 
+.textline1 {
+  align:center;
 }
