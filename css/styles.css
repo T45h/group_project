@@ -204,6 +204,18 @@ body, html {
         }
       }
 
+#button {
+  background-color: #FFFFFF;
+  border: none;
+  color: black;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 div.contrast {
   background-color: (255, 0, 0, 0.4);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.6));
