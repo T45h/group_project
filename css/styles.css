@@ -43,9 +43,19 @@ h2 {
   text-align: justify;
 }
 
+.footerline {
+  font-size: 2em;
+  text-align:left;
+}
+
+.list-inline {
+  justify-content: space-around;
+}
+
+}
   h6 {
     color: #8B0000;
-    font-size: 6em;
+    font-size: 8em;
     font-family: "Courier";
     position:relative;
     top: 55px;
@@ -352,12 +362,16 @@ div.contrast2 {
     opacity: 1;
   }
 
-.fa {color: red;}
+ul.list-inline social {
+  color: Red;
+}
 
 #image1 {
   align:left;
-  width: 300px;
+  width: 500px;
   height: 400px;
 }
 
+.textline1 {
+  align:center;
 }
