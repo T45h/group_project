@@ -8,26 +8,13 @@ html {
     top: 0;
   }
 
-nav {
-    color: rgba(0, 0, 0, 0.0);
-    font-size: 15px;
-    font-color: #C33213;
-  }
 
-nav.active {
-  font-color: red;
-  font-style: oblique;
-}
   .navbar-nav > li{
   padding-right:20px;
-
 }
-nav.social-navigation {
-  display: inline-block;
-  float: right;
+.navbar-light .navbar-nav a.nav-link {
+  font-family:"HelveticaNeue";
 }
-
-
 
 .vl {
   border-left: 6px solid white;
