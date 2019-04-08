@@ -12,6 +12,10 @@ html {
     color: rgba(0, 0, 0, 0.0);
   }
 
+  .navbar-nav > li{
+  padding-right:15px;
+}
+
 .vl {
   border-left: 6px solid white;
   height: 500px;
