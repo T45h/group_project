@@ -12,12 +12,12 @@ html {
   padding-right:20px;
 }
 .navbar-light .navbar-nav a.nav-link {
-  font-family:"HelveticaNeue";
+  font-family:"Palatino";
 }
 
 body {
   text-align: center;
-  font-family:"Helvetica";
+  font-family:"Palatino";
   font-size: 12px
 }
 
