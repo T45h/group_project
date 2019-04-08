@@ -58,9 +58,10 @@ h2 {
     font-size: 8em;
     font-family: "Courier";
     position:relative;
-    top: 55px;
+    top: 70px;
     z-index: 9;
-    right: 80px;
+    right: 70px;
+    text-outline: rgb(255,255,255);
 }
 
 
