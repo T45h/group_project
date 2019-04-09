@@ -18,7 +18,7 @@ html {
 body {
   text-align: center;
   font-family:"Palatino";
-  font-size: 12px
+  font-size: 12px;
 }
 
 img {
@@ -66,40 +66,65 @@ h2 {
     text-outline: rgb(255,255,255);
 }
 
+h11 {
+  color: #8B0000;
+  font-size: 6em;
+  font-family: "Courier";
+  position:relative;
+  top: 40px;
+  z-index: 9;
+  right: 70px;
+  text-outline: rgb(255,255,255);
+}
+
+h12 {
+  color: #8B0000;
+  font-size: 6em;
+  font-family: "Courier";
+  position:relative;
+  top: 70px;
+  z-index: 9;
+  right: 70px;
+  text-outline: rgb(255,255,255);
+}
 
 h9 {
     color: #8B0000;
-    font-size:1.5em;
+    font-size:2.5em;
+    font-family:"Palatino";
 }
 
 h8 {
     color: white;
-    font-size:2em;
+    font-size:2.5em
 }
 
-.px-2 {
-    padding-left: ($spacer * .10) !important;
-    padding-right: ($spacer * .10) !important;
-}
+h10 {
+    color: #FF0000;
+    font-size:2.5em;
+    font-family:"Palatino";
+  }
 
 h3 {
   width: 70%;
   margin: 15vh 29vw;
   font-size: 3em;
-  font-family: "HelveticaNeue, Light";
+  font-family: "Palatino";
   text-align: center
 }
 
 
 h4 {
   text-align: center;
+  font-family: "Palatino";
 }
 
 p {
   width: 70%;
   margin: 20vh 10vw;
-  font-size: 1.5em;
-  text-align: justify;
+  font-size: 2.5em;
+  text-align: left;
+  font-family: "Palatino";
 }
 
 #p2 {
@@ -132,6 +157,11 @@ a:link {
   position: relative;
   colour: rgba(0,0,0,0);
   padding-top: 40px;
+}
+
+.px-2 {
+    padding-left: ($spacer * .10) !important;
+    padding-right: ($spacer * .10) !important;
 }
 
 /* Top text on images */
@@ -232,12 +262,6 @@ div.contrast1 {
 }
 
 div.contrast2 {
-  background-color: (255, 0, 0, 0.4);
-  background-image: linear-gradient(rgba(255, 0, 0, 0.6),rgba(255, 0, 0, 0));
-  padding: 70px;
-}
-
-div.contrast2 {
   background-color: rgba(255, 0, 0, 0.4);
 }
 .grid-container {
@@ -268,7 +292,7 @@ div.contrast2 {
     background-color: white;
   }
 
-  /*crabdraws css for modal & hover- does this need to go in javascript?*/
+  /*crabdraws css for modal & hover- maybe this needs to go in javascript (harriet)?*/
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
   })
@@ -324,43 +348,6 @@ div.contrast2 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  }
-
-  /* Full-width input fields */
-  .form-container input[type=text], .form-container input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-  }
-
-  /* When the inputs get focus, do something */
-  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-
-  /* Set a style for the submit/login button */
-  .form-container .btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-  }
-
-  /* Add a red background color to the cancel button */
-  .form-container .cancel {
-    background-color: red;
-  }
-
-  /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
   }
 
 ul.list-inline social {

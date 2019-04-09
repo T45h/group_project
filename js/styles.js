@@ -2,7 +2,7 @@ window.PixleeAsyncInit = function()
     {Pixlee.init({apiKey:'OJdmiQCo9vY6u1yHlcl9'});
     Pixlee.addSimpleWidget({widgetId:'17151'});};</script>
 
-    
+
 
     $('#exampleModal').on('show.bs.modal', function (event) {
       var button = $(event.relatedTarget) // Button that triggered the modal
@@ -13,11 +13,3 @@ window.PixleeAsyncInit = function()
       modal.find('.modal-title').text('New message to ' + recipient)
       modal.find('.modal-body input').val(recipient)
     })
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
