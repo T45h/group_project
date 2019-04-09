@@ -21,6 +21,10 @@ body {
   font-size: 12px;
 }
 
+body, html {
+  height: 100%;
+}
+
 img {
   display: flex;
   margin: 0 auto;
@@ -38,13 +42,6 @@ img {
   box-shadow: 55px 65px #8B0000;
 }
 
-h2 {
-  width: 70%;
-  margin: 15vh 15vw;
-  font-size: 2em;
-  text-align: justify;
-}
-
 .footerline {
   font-size: 2em;
   text-align:left;
@@ -54,7 +51,13 @@ h2 {
   justify-content: space-around;
 }
 
+h2 {
+  width: 70%;
+  margin: 15vh 15vw;
+  font-size: 2em;
+  text-align: justify;
 }
+
   h6 {
     color: #8B0000;
     font-size: 8em;
@@ -113,15 +116,6 @@ h3 {
   text-align: center
 }
 
-.navbar-brand
-{
-    position: relative;
-    width: 170px;
-    left: 15px;
-    max-height: 30px; /* height of the navbar */
-}
-
-
 h4 {
   text-align: center;
   font-family: "Palatino";
@@ -172,11 +166,6 @@ a:link {
     padding-right: ($spacer * .10) !important;
 }
 
-
-body, html {
-  height: 100%;
-}
-
 .parallax {
   background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/fd5bf580ee39874ed2e4194a53f59695/5D3D06DB/t51.2885-15/sh0.08/e35/c0.63.847.847a/s640x640/51287128_331760110772622_2894774182262063_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com");
   height: 100%;
@@ -219,18 +208,10 @@ body, html {
         }
       }
 
-#button {
-  background-color: #FFFFFF;
-  border: none;
-  color: black;
-  padding: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+#myBtn {
   cursor: pointer;
 }
+
 div.contrast {
   background-color: (255, 0, 0, 0.4);
   background-image: linear-gradient(rgba(255, 0, 0, 0),rgba(255, 0, 0, 0.6));
@@ -246,13 +227,18 @@ div.contrast1 {
 div.contrast2 {
   background-color: rgba(255, 0, 0, 0.4);
 }
+
+#crabwears {}
+
+
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
   padding: 20px;
 }
 
-  .grid-item {
+.grid-item {
     border: 10px;
     padding: 10px;
     font-size: 20px;
