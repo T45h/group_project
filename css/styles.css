@@ -113,6 +113,14 @@ h3 {
   text-align: center
 }
 
+.navbar-brand
+{
+    position: relative;
+    width: 170px;
+    left: 15px;
+    max-height: 30px; /* height of the navbar */
+}
+
 
 h4 {
   text-align: center;
@@ -155,7 +163,7 @@ a:link {
 
 .container {
   position: relative;
-  colour: rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
   padding-top: 40px;
 }
 
@@ -164,32 +172,6 @@ a:link {
     padding-right: ($spacer * .10) !important;
 }
 
-/* Top text on images */
-.text-block {
-  position: absolute;
-  top: 200px;
-  left: 300px;
-  font-size: 2em;
-}
-
-#demobox2 {
-  background-color: (255, 0, 0, 0.4);
-  width: 700px;
-  height: 650px;
-  right: 470px;
-  top: 90px;
-  position: absolute;
-  display: block;
-}
-
-/* transparent box for formating */
-#demobox3 {
-  background-color: white; opacity: 0;
-  width: 700px;
-  height: 650px;
-  right: 470px;
-  top: 90px;
-}
 
 body, html {
   height: 100%;
