@@ -15,6 +15,10 @@ html {
   font-family:"Palatino";
 }
 
+.social-nav img {
+  height: 30px;
+}
+
 body {
   text-align: center;
   font-family:"Palatino";
