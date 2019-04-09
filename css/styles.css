@@ -77,10 +77,11 @@ h8 {
 
 h3 {
   width: 70%;
-  margin: 15vh 29vw;
-  font-size: 3em;
+  margin: 5vw;
+  margin-top: 25vh;
+  font-size: 2.7em;
   font-family: "HelveticaNeue, Light";
-  text-align: center
+  text-align: left;
 }
 
 
