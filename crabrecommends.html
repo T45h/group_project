@@ -161,7 +161,64 @@
                    </div>
                </div>
            </footer>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
            <script>
+           function onload() {
+             var dots = document.getElementById("dots");
+             var moreText = document.getElementById("more");
+             var btnText = document.getElementById("myBtn");
+             dots.style.display = "none";
+             btnText.innerHTML = "Read more";
+             moreText.style.display = "none";
+
+             var dots2 = document.getElementById("dots2");
+             var moreText2 = document.getElementById("more2");
+             var btnText2 = document.getElementById("myBtn2");
+
+             dots2.style.display = "none";
+             btnText2.innerHTML = "Read more";
+             moreText2.style.display = "none";
+
+             var dots3 = document.getElementById("dots3");
+             var moreText3 = document.getElementById("more3");
+             var btnText3= document.getElementById("myBtn3");
+
+             dots3.style.display = "none";
+             btnText3.innerHTML = "Read more";
+             moreText3.style.display = "none";
+
+             var dots4 = document.getElementById("dots4");
+             var moreText4 = document.getElementById("more4");
+             var btnText4 = document.getElementById("myBtn4");
+
+             dots4.style.display === "none";
+             btnText4.innerHTML = "Read more";
+             moreText4.style.display = "none";
+
+             var dots5 = document.getElementById("dots5");
+             var moreText5 = document.getElementById("more5");
+             var btnText5 = document.getElementById("myBtn5");
+
+             dots5.style.display === "none";
+             btnText5.innerHTML = "Read more";
+             moreText5.style.display = "none";
+
+             var dots6 = document.getElementById("dots6");
+             var moreText6 = document.getElementById("more6");
+             var btnText6 = document.getElementById("myBtn6");
+
+             dots6.style.display === "none";
+             btnText6.innerHTML = "Read more";
+             moreText6.style.display = "none";
+
+           }
+
+           $( document ).ready(function() {
+               console.log( "ready!" );
+               onload()
+           });
+
            function seemore() {
              var dots = document.getElementById("dots");
              var moreText = document.getElementById("more");
